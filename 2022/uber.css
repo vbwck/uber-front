@@ -1,0 +1,251 @@
+@import url(../../../../../CSS/CSS/обнуление.css);
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+
+    width: 100%;
+    background-color: #212121;
+    height: 50px;
+    padding: 10px 170px;
+}
+
+.header_main {
+
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+
+}
+
+.header_main .text_header {
+    border-right: 1px dashed black;
+    padding-right: 30px;
+
+}
+
+.text_header:last-child {
+    border-right: none;
+}
+
+.header_main .text_header .scroll {
+
+    text-decoration: none;
+    color: white;
+}
+
+.subheader {
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    height: 87px;
+
+}
+
+.logo_uber {
+    padding: 19px 0 6px 0;
+}
+
+.uberlogo_text {
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.call_text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 22px 0 3px 0;
+}
+
+.call {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+.settings_btn {
+    margin-top: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 46px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    width: 172px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.promo_main {
+    min-height: 800px;
+    background: url("../img/uber_bg.png") center center/cover no-repeat;
+}
+
+.h1_info {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 60px;
+    padding-top: 152px;
+}
+
+.h2_info {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.promo_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+.set_btn {
+    text-transform: uppercase;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 63px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+    display: block;
+    margin: 116px auto 186px auto;
+
+}
+
+.second_page {
+    min-height: 800px;
+
+}
+
+.title_second {
+
+    margin: 15px auto;
+    padding-top: 5px;
+    background-color: black;
+    width: 113px;
+    height: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.title_main_second {
+    padding: 32px 0 16px 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #222222;
+}
+
+.cicle {
+    width: 116px;
+    height: 116px;
+    background: #1EACC7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    float: bottom;
+}
+
+
+.icons_description {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    align-items: center;
+    color: #1EACC7;
+    text-align: left;
+
+    float: bottom;
+    margin-left: 25px;
+
+}
+
+.descrip {
+    color: #202020;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: left;
+    float: bottom;
+    width: 371px;
+    height: 150px;
+    margin: 10px 0 0 25px;
+}
+
+.third_page {
+    min-height: 800px;
+    background: #F2F2F2;
+    padding: 40px;
+}
+
+.title_third {
+    width: 112px;
+    height: 24px;
+    background-color: black;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 5px;
+
+}
+
+.title_main_third {
+    padding-top: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+    color: #222222;
+
+}
+
+.podtext {
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    color: #222222;
+    padding-bottom: 10px;
+}
+.picture_third{
+    padding-top: 25px;
+}
+.kitten{
+    background-color: black;
+    border: 1px solid yellow;
+    color: white;
+    font-size: 15px;
+}
